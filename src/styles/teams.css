@@ -1,0 +1,136 @@
+#teams {
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#teamsChild {
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#tC1 {
+    flex-direction: column;
+    text-align: center;
+}
+
+#tC1>span:nth-child(1) {
+    font-size: 50px;
+    font-weight: 900;
+    color: #00c8ff;
+}
+
+#tC1>span:nth-child(2) {
+    padding-top: 20px;
+    font-size: larger;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.707);
+}
+
+#tC2 {
+    padding-top: 40px;
+    gap: 30px;
+}
+
+#tC2>div:nth-child(1) {
+    overflow: hidden;
+    max-width: 700px;
+    border-radius: 20px;
+    border: 2px solid #00c8ff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#tC2>div:nth-child(1)>img {
+    width: 100%;
+}
+
+#tC2>div:nth-child(2) {
+    flex-direction: column;
+}
+
+#tC2>div:nth-child(2)>span:nth-child(1) {
+    font-size: x-large;
+    font-weight: 900;
+    color: #00C8F9;
+    overflow: hidden;
+    align-items: center;
+}
+
+#tC2>div:nth-child(2)>span:nth-child(2) {
+    padding-top: 20px;
+    line-height: 30px;
+    padding-top: 20px;
+    font-size: larger;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.707);
+}
+
+#tC2>div:nth-child(1):hover {
+    transition: 0.3s;
+    box-shadow: 1px 1px 20px #00c8ff;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+#tC3 {
+    padding-top: 50px;
+    justify-content: center;
+}
+
+#tC3>div {
+    flex-direction: column;
+    width: 600px;
+    border: 1px solid rgba(128, 128, 128, 0.409);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#tC3>div>span {
+    text-align: center;
+}
+
+#tC3>div>span:nth-child(1) {
+    font-size: xx-large;
+    font-weight: 900;
+    color: #00C8F9;
+}
+
+#tC3>div>span:nth-child(2) {
+    padding-top: 20px;
+    line-height: 25px;
+    font-size: large;
+    color: rgba(255, 255, 255, 0.739);
+}
+
+#tC3>div>div {
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#tC3>div>div button {
+    padding: 15px;
+    cursor: pointer;
+    background-color: #00C8F9;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: large;
+    transition: 0.3s;
+}
+
+#tC3>div>div button:hover {
+    transition: 0.3s;
+    box-shadow: 1px 1px 20px #00c8ff;
+}

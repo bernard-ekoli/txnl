@@ -1,0 +1,117 @@
+#heroParent {
+    flex-direction: column;
+}
+
+#heroParent>div:nth-child(1) {
+    left: 100px;
+}
+
+#heroParent>div:nth-child(2) {
+    right: 100px;
+    top: 200px;
+}
+
+#heroParent>div:nth-child(3) {
+    left: 50%;
+}
+
+#glowBoxes {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#hPChild1 {
+    z-index: 9;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#hPChild1>span:nth-child(1) {
+    font-size: 80px;
+    font-weight: 900;
+}
+
+#hPChild1>span:nth-child(2) {
+    text-align: center;
+    padding-top: 15px;
+    font-size: x-large;
+    color: rgba(255, 255, 255, 0.823);
+}
+
+#hPChild2 {
+    z-index: 9;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 25px;
+}
+
+#hPChild2>button {
+    padding: 10px 25px;
+    font-weight: 700;
+    font-size: large;
+}
+
+#hPChild2>button:nth-child(1) {
+    background-color: #00c8ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#hPChild2>button:nth-child(1):hover,
+#hPChild3>div:hover {
+    transition: 0.5s;
+    box-shadow: 1px 1px 20px #00c8ff;
+}
+
+#hPChild2>button:nth-child(2) {
+    border: 1px solid #00C8F9;
+    background-color: black;
+    color: #00C8F9;
+    transition: 0.3s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#hPChild2>button:nth-child(2):hover {
+    background-color: #00C8F9;
+    color: black;
+    transition: 0.3s;
+}
+
+#hPChild3 {
+    z-index: 9;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 40px;
+}
+
+#hPChild3>div {
+    transition: 0.5s;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.411);
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+#hPChild3>div>span:nth-child(1) {
+    color: #00c8ff;
+    font-weight: 800;
+
+}
+
+#hPChild3>div>span:nth-child(2) {
+    color: rgba(255, 255, 255, 0.823);
+
+}
