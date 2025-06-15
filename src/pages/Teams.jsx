@@ -22,7 +22,7 @@ const Teams = () => {
           </div>
         </div>
         <div id="tC3" className="display-flex Whundred-percent">
-          <div className="display-flex Whundrd-percent">
+          <div className="display-flex Whundred-percent">
             <span className="Whundred-percent">Join Our Team</span>
             <span className="Whundred-percent">We're always looking for talented individuals to join our mission. If you're passionate about cutting-edge technology and innovation, we'd love to hear from you.</span>
             <div className="display-flex Whundred-percent"><button>View Open Positions</button></div>

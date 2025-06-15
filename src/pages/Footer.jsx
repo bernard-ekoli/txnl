@@ -2,7 +2,7 @@ import React from 'react'
 import "../styles/Footer.css"
 const Footer = () => {
   return (
-    <div id="footers" className="display-flex Whundred-percent">
+    <div id="footers" className="display-flex center-flex Whundred-percent">
         <div className="display-flex Whundred-percent">
             <span className="Whundred-percent display-flex">
                 <div><img src="./txnlLogo.png" alt="txnlLogo" /></div>

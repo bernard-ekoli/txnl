@@ -3,7 +3,7 @@ import "../styles/header.css"
 
 const Header = () => {
   return (
-    <div className="display-flex Whundred-percent Hhundred-percent">
+    <div id="headers" className="display-flex Whundred-percent Hhundred-percent">
       <div id="headerFirstChild" className="display-flex center-flex Whundred-percent Hhundred-percent">
         <div className="display-flex center-flex Hhundred-percent">
           <img src="./txnlLogo.png" alt="" className="pointer" />

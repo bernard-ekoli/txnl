@@ -9,14 +9,14 @@ import Contact from './pages/Contact'
 import Footer from './pages/Footer'
 const App = () => {
   return (
-    <div id="app" className="">
-      <div id="header" className="glass-bg"><Header /></div>
-      <div id="hero" className="checkered-bg"><Hero /></div>
-      <div id="about"><About /></div>
-      <div id="project"><Project /></div>
-      <div id="team"><Teams /></div>
-      <div id="contact"><Contact /></div>
-      <div id="footer"><Footer /></div>
+    <div id="app" className="Whundred-percent">
+      <div id="header" className="glass-bg display-flex center-flex"><Header /></div>
+      <div id="hero" className="checkered-bg display-flex center-flex"><Hero /></div>
+      <div id="about" className="display-flex center-flex"><About /></div>
+      <div id="project" className="display-flex center-flex"><Project /></div>
+      <div id="team" className="display-flex center-flex"><Teams /></div>
+      <div id="contact" className="display-flex center-flex"><Contact /></div>
+      <div id="footer" className="display-flex center-flex"><Footer /></div>
     </div>
   )
 }
